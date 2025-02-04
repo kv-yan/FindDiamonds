@@ -7,11 +7,12 @@ import kotlinx.coroutines.flow.asStateFlow
 
 class GameSettingsViewModel : ViewModel() {
 
-    private val _gameListOf =
-        MutableStateFlow(listOf(GameMode.Easy, GameMode.Medium, GameMode.Hard))
+    private val _gameListOf = MutableStateFlow(
+        listOf(GameMode.Easy, GameMode.Medium, GameMode.Hard)
+    )
     val gameListOf = _gameListOf.asStateFlow()
 
-    private val _selectedMode = MutableStateFlow(GameMode.Hard)
+    private val _selectedMode = MutableStateFlow(GameMode.Medium)
     val selectedMode = _selectedMode.asStateFlow()
 
     fun setSelectedMode(gameMode: GameMode) {
