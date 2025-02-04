@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FindDimonds</string>
+    <string name="game_destination">game/%1$s</string>
+    <string name="game_mode">game/{mode}</string>
+    <string name="mode">mode</string>
+</resources>
