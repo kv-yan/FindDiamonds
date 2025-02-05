@@ -31,7 +31,7 @@ Find Diamond is an Android game where players try to uncover hidden diamonds wit
 ## Installation
 Clone the repository and open it in Android Studio:
 ```sh
-git clone https://github.com/yourusername/find-diamond.git
+git clone https://github.com/kv-yan/FindDiamonds.git
 cd find-diamond
 ```
 Build and run the project on an Android device or emulator.
